@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 192 192" width="192" height="192">
+  <!-- Background -->
+  <rect width="192" height="192" fill="#0a6b55"/>
+
+  <!-- Medical cross -->
+  <g transform="translate(96, 96)">
+    <!-- Vertical bar -->
+    <rect x="-12" y="-45" width="24" height="90" fill="#ffffff"/>
+    <!-- Horizontal bar -->
+    <rect x="-45" y="-12" width="90" height="24" fill="#ffffff"/>
+  </g>
+
+  <!-- Package/box below cross -->
+  <g transform="translate(96, 130)">
+    <!-- Box outline -->
+    <rect x="-25" y="-15" width="50" height="30" fill="none" stroke="#ffffff" stroke-width="2"/>
+    <!-- Box divider -->
+    <line x1="-25" y1="0" x2="25" y2="0" stroke="#ffffff" stroke-width="1.5"/>
+    <!-- Flaps -->
+    <line x1="-25" y1="-15" x2="-12" y2="-8" stroke="#ffffff" stroke-width="1.5"/>
+    <line x1="25" y1="-15" x2="12" y2="-8" stroke="#ffffff" stroke-width="1.5"/>
+  </g>
+
+  <!-- Corner decoration -->
+  <circle cx="24" cy="24" r="8" fill="#22c55e" opacity="0.8"/>
+</svg>
